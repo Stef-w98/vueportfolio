@@ -1,12 +1,11 @@
 <template>
   <nav>
     <div class="navleft">
-      <img src="./assets/favicon.png" alt="SWicon">
+      <img id="logo" src="./assets/favicon.png" alt="SWicon">
       <h1>Stef Wouters</h1>
     </div>
     <div class="links">
-      <router-link to="/">Home</router-link>
-      |
+      <router-link to="/">Home</router-link>      |
       <router-link to="/about">About</router-link>
       <img id="icon" src="./assets/moon.png" alt="Light/Dark Mode">
     </div>
@@ -106,9 +105,9 @@ footer {
   text-align: center;
   align-items: center;
   height: 4rem;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
-  position: fixed;
+  top: auto;
 }
 .footername{
   margin-left: 1.6rem;

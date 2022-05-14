@@ -14,8 +14,8 @@
   justify-content: center;
   text-align: left;
   margin-left: 10rem;
-  margin-top: 14rem;
   width: 60%;
+  min-height: 81vh;
 }
 .iam{
   font-size: 46px;
