@@ -22,4 +22,10 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  document.title = to.name;
+  next();
+  return false
+})
+
 export default router
