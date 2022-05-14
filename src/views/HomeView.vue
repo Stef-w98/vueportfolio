@@ -7,6 +7,7 @@
 </template>
 
 <style>
+
 .homeinfo {
   display: flex;
   flex-direction: column;
@@ -34,8 +35,8 @@ h4{
 
 @media only screen and (max-width: 600px){
   .homeinfo{
+    margin-top: 4rem;
     margin-left: 1rem;
-
   }
 }
 </style>

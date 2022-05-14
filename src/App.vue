@@ -2,23 +2,40 @@
   <nav>
     <h1>Stef Wouters</h1>
     <div class="links">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
+      |
       <router-link to="/about">About</router-link>
       <img id="icon" src="./assets/moon.png" alt="Light/Dark Mode">
     </div>
   </nav>
+
   <router-view/>
+
+  <footer>
+    <div class="footername">
+      <p>Stef Wouters</p>
+    </div>
+    <div class="copyright">
+      <p>Copyright © 2022 All Rights Reserved</p>
+    </div>
+    <div class="socials">
+      <img id="iconlnkdn" src="./assets/linkedin.png" alt="linkedin">
+      <img id="iconmail" src="./assets/mail.png" alt="mail">
+    </div>
+  </footer>
 </template>
 
 <style lang="scss">
-:root{
+:root {
   --primary-color: #edf2fc;
   --secondary-color: #212121;
 }
-.darktheme{
+
+.darktheme {
   --primary-color: #000106;
   --secondary-color: #fff;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,30 +44,35 @@
   background-color: var(--primary-color);
   color: var(--secondary-color);
 }
-body{
+
+body {
   margin: 0;
   background-color: var(--primary-color);
 }
-.links{
+
+.links {
   display: flex;
   align-items: center;
   text-align: center;
 }
-.links img{
+
+.links img {
   margin: 0 3rem 0 2rem;
   width: 30px;
   cursor: pointer;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   text-align: center;
   padding: 1.2rem;
 
-  h1{
+  h1 {
     color: var(--secondary-color);
     margin: 0;
   }
+
   a {
     font-size: 18px;
     color: var(--secondary-color);
@@ -62,17 +84,47 @@ nav {
     }
   }
 }
-@media only screen and (max-width: 600px){
-  nav{
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 4rem;
+  width: 100vw;
+  bottom: 0;
+  position: fixed;
+}
+.footername{
+  margin-left: 1.6rem;
+}
+.socials img{
+  width: 36px;
+  margin-right: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
     justify-content: flex-end;
     right: 0;
 
-    h1{
+    h1 {
       display: none;
     }
   }
-  .links img{
+  .links img {
     margin: 0 0 0 5rem;
+  }
+  .socials img{
+    width: 14px;
+    margin-right: 0.6rem;
+  }
+  .footername{
+    margin-left: 0.6rem;
+    font-size: 12px;
+  }
+  .copyright{
+    font-size: 12px;
   }
 }
 </style>
