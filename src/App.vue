@@ -62,4 +62,17 @@ nav {
     }
   }
 }
+@media only screen and (max-width: 600px){
+  nav{
+    justify-content: flex-end;
+    right: 0;
+
+    h1{
+      display: none;
+    }
+  }
+  .links img{
+    margin: 0 0 0 5rem;
+  }
+}
 </style>

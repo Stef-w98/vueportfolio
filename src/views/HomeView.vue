@@ -12,8 +12,9 @@
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  margin-left: 2rem;
-  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-top: 14rem;
+  width: 60%;
 }
 .iam{
   font-size: 46px;
@@ -29,6 +30,13 @@ h4{
 }
 .stef {
   color: #42b983;
+}
+
+@media only screen and (max-width: 600px){
+  .homeinfo{
+    margin-left: 1rem;
+
+  }
 }
 </style>
 <script>
