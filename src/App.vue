@@ -1,6 +1,9 @@
 <template>
   <nav>
-    <h1>Stef Wouters</h1>
+    <div class="navleft">
+      <img src="./assets/favicon.png" alt="SWicon">
+      <h1>Stef Wouters</h1>
+    </div>
     <div class="links">
       <router-link to="/">Home</router-link>
       |
@@ -50,6 +53,14 @@ body {
   background-color: var(--primary-color);
 }
 
+.navleft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navleft h1{
+  margin-left: 0.6rem;
+}
 .links {
   display: flex;
   align-items: center;
@@ -67,6 +78,10 @@ nav {
   justify-content: space-between;
   text-align: center;
   padding: 1.2rem;
+
+  img{
+    width: 36px;
+  }
 
   h1 {
     color: var(--secondary-color);
