@@ -5,8 +5,9 @@
       <h1>Stef Wouters</h1>
     </div>
     <div class="links">
-      <router-link to="/">Home</router-link>      |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>        |
+      <router-link to="/about">About</router-link>  |
+      <router-link to="/contact">Contact</router-link>
       <img id="icon" src="./assets/moon.png" alt="Light/Dark Mode">
     </div>
   </nav>

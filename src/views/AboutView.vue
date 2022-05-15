@@ -275,6 +275,10 @@ i {
   .box{
     width: 130%;
   }
+  .biobox{
+    padding: 0 0 0 5%;
+    width: 99%;
+  }
   .title{
     width: initial;
   }
