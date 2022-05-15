@@ -95,6 +95,10 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
+  .content h2{
+    font-size: 5.4em;
+    transform: translate(150px, -96px);
+  }
   .homeinfo {
     margin-top: 4rem;
     margin-left: 1rem;
