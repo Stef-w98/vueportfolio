@@ -24,7 +24,7 @@
   color: #fff;
   font-size: 8em;
   position: absolute;
-  transform: translate(150px, -130px);
+  transform: translate(150px, -134px);
 }
 
 .content h2:nth-child(1) {
