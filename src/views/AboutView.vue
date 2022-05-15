@@ -18,31 +18,40 @@
         <div class="box">
           <p class="title">Languages:</p>
           <ul class="info list">
-            <li>Dutch:
+            <li class="listcenter">Dutch:
               <div class="points">
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circle.png" alt="circle">
               </div>
             </li>
-            <li>English:
+            <li class="listcenter">English:
               <div class="points">
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="far fa-circle"></i>
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circleo.png" alt="empty circle">
               </div>
             </li>
-            <li>German:
+            <li class="listcenter">Spanish:
               <div class="points">
-                <i class="fas fa-circle"></i>
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
-                <i class="far fa-circle"></i>
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circleo.png" alt="empty circle">
+                <img src="../assets/circleo.png" alt="empty circle">
+                <img src="../assets/circleo.png" alt="empty circle">
+                <img src="../assets/circleo.png" alt="empty circle">
+              </div>
+            </li>
+            <li class="listcenter">German:
+              <div class="points">
+                <img src="../assets/circle.png" alt="circle">
+                <img src="../assets/circleo.png" alt="empty circle">
+                <img src="../assets/circleo.png" alt="empty circle">
+                <img src="../assets/circleo.png" alt="empty circle">
+                <img src="../assets/circleo.png" alt="empty circle">
               </div>
             </li>
           </ul>
