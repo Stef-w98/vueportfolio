@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="navleft">
-      <img id="logo" src="assets/faviconwh2.png" alt="SWicon">
+      <img id="logo" src="./assets/logoblack.png" alt="SWicon">
       <h1>Stef Wouters</h1>
     </div>
     <div class="links">
