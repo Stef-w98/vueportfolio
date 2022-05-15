@@ -57,14 +57,14 @@ export default {
 
 <style scoped>
 
-.maincontainer{
+.maincontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
 }
 
-.contactinfo{
+.contactinfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +76,7 @@ export default {
   margin-bottom: 8%;
 }
 
-.contactinfo p{
+.contactinfo p {
   color: var(--secondary-color);
   letter-spacing: 2px;
   word-spacing: 5px;
@@ -87,7 +87,7 @@ export default {
   justify-content: center;
 }
 
-.contactinfo h4{
+.contactinfo h4 {
   color: #42b983;
   font-size: 36px;
   letter-spacing: 2px;
@@ -137,7 +137,7 @@ export default {
   justify-content: space-between;
 }
 
-.inputcontainer{
+.inputcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,11 +166,9 @@ export default {
 
 #phone:focus {
   border-color: #42b983;
-  width: 190px;
 }
 
-.contactform input[type = "text"]:focus, .contactform input[type="email"]:focus{
-  width: 190px;
+.contactform input[type = "text"]:focus, .contactform input[type="email"]:focus {
   border-color: #42b983;
 }
 
@@ -193,7 +191,7 @@ export default {
   padding-right: 1%;
 }
 
-.subjectbox{
+.subjectbox {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -210,8 +208,6 @@ export default {
   height: 20em;
   margin-top: 3%;
   margin-bottom: 3%;
-  max-height: 25em;
-  max-width: 50em;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border-color: var(--secondary-color);
@@ -219,7 +215,11 @@ export default {
   border-radius: 6px;
 }
 
-.sendbtn{
+textarea {
+  resize: none;
+}
+
+.sendbtn {
   background: #42b983;
   color: var(--secondary-color);
   letter-spacing: 2px;
@@ -233,7 +233,7 @@ export default {
 
 }
 
-.sendbtn:hover{
+.sendbtn:hover {
   box-shadow: inset 300px 0 0 0 #0cbf6c;
   cursor: pointer;
 }
