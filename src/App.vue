@@ -119,7 +119,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
   nav {
-    justify-content: flex-end;
     right: 0;
 
     h1 {

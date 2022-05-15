@@ -270,4 +270,27 @@ i {
 .subtitle {
   margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 600px){
+  .box{
+    width: 130%;
+  }
+  .title{
+    width: initial;
+  }
+  .subtitle{
+    margin: 0;
+  }
+  .info{
+    line-height: 1.8rem;
+  }
+  .infoIndent{
+    margin: 0 0 1rem 0;
+  }
+  li{
+    min-height: initial;
+    max-height: initial;
+    margin: 0 0 1.2rem 0;
+  }
+}
 </style>
