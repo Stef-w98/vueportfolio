@@ -1,4 +1,5 @@
 <template>
+
   <div class="homeinfo">
     <section>
       <h1 class="iam">Hi, i'm</h1>
@@ -10,6 +11,7 @@
     <h1>I'M A C# AND WEB DEVELOPER</h1>
     <h4>I'm a student at Hogeschool PXL. I make websites and C# applications</h4>
   </div>
+
 </template>
 
 <style>
@@ -18,6 +20,21 @@
 
 .content {
   position: relative;
+}
+
+.mainhome {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.picture img {
+  width: 50%;
 }
 
 .content h2 {
@@ -95,10 +112,11 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
-  .content h2{
+  .content h2 {
     font-size: 5.4em;
     transform: translate(150px, -96px);
   }
+
   .homeinfo {
     margin-top: 4rem;
     margin-left: 1rem;
