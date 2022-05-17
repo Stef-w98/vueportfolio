@@ -8,7 +8,7 @@
 
     </div>
     <div class="formcontainer">
-      <form data-netlify="true" method="post" id="idform" class="contactform" netlify>
+      <form data-netlify="true" method="post" id="idform" class="contactform" action="./ContactView.vue">
         <div class="inputcontainer">
           <div class="namecontainer">
             <div class="fname">
@@ -62,6 +62,8 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  min-height: 84vh;
+  max-height: 84vh;
 }
 
 .contactinfo {

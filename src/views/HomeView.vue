@@ -22,17 +22,6 @@
   position: relative;
 }
 
-.mainhome {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.picture {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-}
-
 .picture img {
   width: 50%;
 }
@@ -92,7 +81,8 @@
   text-align: left;
   margin-left: 10rem;
   width: 60%;
-  min-height: 81vh;
+  min-height: 85vh;
+  max-height: 85vh;
 }
 
 .iam {

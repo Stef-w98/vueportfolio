@@ -105,10 +105,12 @@ footer {
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  height: 4rem;
+  min-height: 7vh;
+  max-height: 8vh;
   width: 100%;
+  margin-top: fill;
   bottom: 0;
-  top: auto;
+
 }
 .footername{
   margin-left: 1.6rem;
