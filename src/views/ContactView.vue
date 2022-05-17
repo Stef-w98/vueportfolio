@@ -8,7 +8,7 @@
 
     </div>
     <div class="formcontainer">
-      <form data-netlify="true" method="post" id="idform" class="contactform" action="./ContactView.vue">
+      <form data-netlify="true" method="post" id="idform" class="contactform" action="./contact">
         <div class="inputcontainer">
           <div class="namecontainer">
             <div class="fname">
