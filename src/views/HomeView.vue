@@ -12,8 +12,7 @@
     <h4>I'm a student at Hogeschool PXL. I make websites and C# applications</h4>
   </div>
   <div class="picture">
-    <h2>Website under construction!</h2>
-    <img src="">
+    <h1>Website under construction!</h1>
   </div>
 </div>
 </template>

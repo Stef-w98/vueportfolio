@@ -8,7 +8,7 @@
 
     </div>
     <div class="formcontainer">
-      <form data-netlify="true" method="post" id="idform" class="contactform" action="./contact">
+      <form data-netlify="true" method="post" id="idform" class="contactform" action="./contact" netlify>
         <div class="inputcontainer">
           <div class="namecontainer">
             <div class="fname">
