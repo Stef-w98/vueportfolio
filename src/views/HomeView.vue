@@ -1,5 +1,5 @@
 <template>
-
+<div class="maincontent">
   <div class="homeinfo">
     <section>
       <h1 class="iam">Hi, i'm</h1>
@@ -11,7 +11,11 @@
     <h1>I'M A C# AND WEB DEVELOPER</h1>
     <h4>I'm a student at Hogeschool PXL. I make websites and C# applications</h4>
   </div>
-
+  <div class="picture">
+    <h2>Website under construction!</h2>
+    <img src="">
+  </div>
+</div>
 </template>
 
 <style>
@@ -21,9 +25,17 @@
 .content {
   position: relative;
 }
+.maincontent{
+  display: flex;
+}
+
+.picture{
+  margin-top: 6rem;
+  margin-right: 30rem;
+}
 
 .picture img {
-  width: 50%;
+  width: 134%;
 }
 
 .content h2 {
